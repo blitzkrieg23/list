@@ -6,5 +6,20 @@
 fruits = ["🍎","🍍","🍋"]
 
 print(fruits[0]) # access individual list
+print(fruits[-1]) # get the last element
+
+fruits.append("🍊")
 print(fruits)
-print(len(fruits))          
+print(len(fruits))     
+
+# Loop through a list
+"""
+people = ["John","Michael","Kyle"]
+
+people.sort() # sort the list
+people.sort(reverse = True) # reverse sort
+
+for x in people:
+    print(x)
+
+"""
